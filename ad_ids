@@ -1,24 +1,24 @@
 {
-  "version": 2,
+  "version": 3,
   "updated_at": "2026-04-08T00:00:00Z",
   "ads": {
-    "master_enabled": false,
+    "master_enabled": true,
     "enabled": true,
     "refresh_minutes": 1,
     "waterfall_order": ["admob", "facebook", "adx"],
     "interstitial_on_click": {
       "enabled": true,
-      "show_every_clicks": 6
+      "show_every_clicks": 3
     },
     "admob": {
       "enabled": true,
       "android": {
-        "app_id": "ca-app-pub-demo-android-app-id",
-        "banner_id": "ca-app-pub-3940256099942544/6300978111",
-        "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
-        "rewarded_id": "ca-app-pub-demo-android-rewarded-id",
-        "native_id": "ca-app-pub-demo-android-native-id",
-        "app_open_id": "ca-app-pub-3940256099942544/9257395921"
+        "app_id": "ca-app-pub-7664893030317051~8920452400",
+        "banner_id": "21753324030,23015585130/com.cinebymovies.series_Banner",
+        "interstitial_id": "/21753324030,23015585130/com.cinebymovies.series_Interstitial",
+        "rewarded_id": "/21753324030,23015585130/com.cinebymovies.series_Rewarded",
+        "native_id": "/21753324030,23015585130/com.cinebymovies.series_Native",
+        "app_open_id": "/21753324030,23015585130/com.cinebymovies.series_AppOpen"
       },
       "ios": {
         "app_id": "ca-app-pub-demo-ios-app-id",
@@ -30,7 +30,7 @@
       }
     },
     "facebook": {
-      "enabled": true,
+      "enabled": false,
       "android": {
         "placement_banner": "ca-app-pub-3940256099942544/6300978111",
         "placement_interstitial": "ca-app-pub-3940256099942544/1033173712",
@@ -47,11 +47,11 @@
     "adx": {
       "enabled": true,
       "android": {
-        "banner_id": "ca-app-pub-3940256099942544/6300978111",
-        "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
-        "rewarded_id": "/network_code/demo_android_rewarded",
-        "native_id": "/network_code/demo_android_native",
-        "app_open_id": "ca-app-pub-3940256099942544/9257395921"
+        "banner_id": "ca-app-pub-2496346727522656/3871249208",
+        "interstitial_id": "ca-app-pub-2496346727522656/4884947978",
+        "rewarded_id": "ca-app-pub-2496346727522656/5462964257",
+        "native_id": "ca-app-pub-2496346727522656/9642450637",
+        "app_open_id": "ca-app-pub-2496346727522656/4944089509"
       },
       "ios": {
         "banner_id": "ca-app-pub-3940256099942544/2934735716",
